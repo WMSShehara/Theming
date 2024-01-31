@@ -4,8 +4,8 @@ package com.example.theming.ui.theme
  import androidx.compose.material3.Shapes
  import androidx.compose.ui.unit.dp
 
-val Shapes:Shapes = Shapes(
+val Shapes = Shapes(
     small= RoundedCornerShape(16.dp),
-    medium=RoundedCornerShape(14.dp),
+    medium=RoundedCornerShape(4.dp),
     large= RoundedCornerShape(0.dp)
 )

@@ -60,11 +60,8 @@ fun MyApp() {
                 )
         Button(
             onClick = { /*TODO*/ },
-            modifier = appModifier
-            .clip(MaterialTheme.shapes.medium),
-            colors = ButtonDefaults.buttonColors(
-                containerColor = MaterialTheme.colorScheme.primary
-            )
+           modifier = appModifier
+           .clip(MaterialTheme.shapes.medium),
         ) {
             Text(text = "Submit",
                 style = MaterialTheme.typography.displayLarge
