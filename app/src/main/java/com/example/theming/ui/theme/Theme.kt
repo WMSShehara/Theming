@@ -68,6 +68,6 @@ fun ThemingTheme(
         colorScheme = LightColorPalette,
         typography = Typography,
         content = content,
-        shapes = Shapes
+        shapes = shapes
     )
 }

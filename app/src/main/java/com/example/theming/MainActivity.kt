@@ -23,6 +23,7 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.draw.clip
 
 
+
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -60,8 +61,9 @@ fun MyApp() {
                 )
         Button(
             onClick = { /*TODO*/ },
-           modifier = appModifier
-           .clip(MaterialTheme.shapes.medium),
+            shape = MaterialTheme.shapes.medium,
+            modifier = appModifier
+           //.clip(MaterialTheme.shapes.extraSmall),
         ) {
             Text(text = "Submit",
                 style = MaterialTheme.typography.displayLarge
